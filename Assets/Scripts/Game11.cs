@@ -177,9 +177,7 @@ public class Game11 : Game
         
         if (game != Game_states.No_game && game != Game_states.End_game)
         {
-            Debug.Log("jol");
-            updateTimer();
-            
+            updateTimer(); 
         }
         int seconds = (int)(timer % 60);
         
